@@ -59,7 +59,9 @@ body {
 .linkbox {
     display: grid;
     grid-template-columns: repeat(2, 1fr 1fr);
-    gap: 0.3rem;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-content: center;
 }
@@ -68,10 +70,18 @@ body {
     width: 100%;
     padding-bottom: 100%;
     border-radius: 10%;
+    align-items: center;
+    justify-items: center;
 }
 
 .link_gh {
     background-color: black;
     grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.link_velog {
+    background-color: aquamarine;
+    grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
