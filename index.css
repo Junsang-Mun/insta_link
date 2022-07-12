@@ -10,6 +10,12 @@
 body {
     padding: 3rem;
     font-family: "Pretendard Variable";
+    background-color: whitesmoke;
+}
+
+*::selection {
+    color: whitesmoke;
+    background-color: #090909;
 }
 
 .f_bold {
@@ -67,7 +73,7 @@ body {
     position: relative;
     text-align: center;
     justify-content: center;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 
 .link_gh {
