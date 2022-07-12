@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Pretendard Variable";
+    font-weight: 45 920;
+    font-style: normal;
+    font-display: swap;
+    src: local("Pretendard Variable"),
+        url("./src/font/PretendardVariable.woff2") format("woff2-variations");
+}
+
+body {
+    padding: 6rem;
+    font-family: "Pretendard Variable";
+    background-color: whitesmoke;
+}
+
+*::selection {
+    color: whitesmoke;
+    background-color: #090909;
+}
+
+.f_bold {
+    font-weight: 850;
+}
+
+.f_light {
+    font-weight: 200;
+}
+
+.line {
+    border: none;
+    width: 100%;
+    height: 0.6rem;
+    background-color: black;
+}
+
+.padding {
+    width: 100%;
+    height: 4rem;
+}
+
+.flexbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_name {
+    font-size: 10rem;
+    margin-bottom: 6rem;
+    color: black;
+}
+
+.profile_image {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.description_tldr {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.linkitem {
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    border-radius: 2rem;
+    margin-bottom: 2.6rem;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.link_gh {
+    border: 0.6rem solid #171516;
+    color: rgba(0, 0, 0, 0);
+    background-image: url("./src/gh.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 6rem 6rem;
+}
+
+.link_gh:hover {
+    font-size: 2.6rem;
+    background-color: #171516;
+    color: whitesmoke;
+}
+
+.link_blog {
+    border: 0.6rem solid #f2eed8;
+    color: rgba(0, 0, 0, 0);
+    background-image: url("./src/blog.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 6rem 6rem;
+}
+
+.link_blog:hover {
+    background-image: none;
+    font-size: 2.6rem;
+    background-color: #f2eed8;
+    color: #171516;
+}
