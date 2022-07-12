@@ -73,25 +73,36 @@ body {
     position: relative;
     text-align: center;
     justify-content: center;
-    transition: all 0.2s;
+    transition: all 0.2s ease-in-out;
 }
 
 .link_gh {
-    border: 0.3rem solid black;
-    color: black;
+    border: 0.3rem solid #171516;
+    color: rgba(0, 0, 0, 0);
+    background-image: url("./src/gh.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 3rem 3rem;
 }
 
 .link_gh:hover {
-    background-color: black;
+    font-size: 1.3rem;
+    background-color: #171516;
     color: whitesmoke;
 }
 
-.link_velog {
-    border: 0.3rem solid #21c998;
-    color: #21c998;
+.link_blog {
+    border: 0.3rem solid #f2eed8;
+    color: rgba(0, 0, 0, 0);
+    background-image: url("./src/blog.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 3rem 3rem;
 }
 
-.link_velog:hover {
-    background-color: #21c998;
-    color: whitesmoke;
+.link_blog:hover {
+    background-image: none;
+    font-size: 1.3rem;
+    background-color: #f2eed8;
+    color: #171516;
 }
