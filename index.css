@@ -92,17 +92,14 @@ body {
 }
 
 .link_blog {
-    border: 0.6rem solid #f2eed8;
-    color: rgba(0, 0, 0, 0);
-    background-image: url("./src/blog.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 6rem 6rem;
+    border: 0.6rem solid #171516;
+    font-size: 2.6rem;
+    color: #171516;
 }
 
 .link_blog:hover {
     background-image: none;
     font-size: 2.6rem;
-    background-color: #f2eed8;
-    color: #171516;
+    background-color: #171516;
+    color: whitesmoke;
 }

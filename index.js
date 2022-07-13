@@ -10,5 +10,5 @@ function openGh() {
 }
 
 function openBlog() {
-    window.open("https://barobaro.icu", "_blank").focus();
+    window.open("https://junsang-mun.github.io", "_blank").focus();
 }
