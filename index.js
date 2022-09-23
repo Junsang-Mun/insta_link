@@ -12,3 +12,7 @@ function openGh() {
 function openBlog() {
     window.open("https://junsang-mun.github.io", "_blank").focus();
 }
+
+function openInsta() {
+    window.open("https://instagram.com/junsang_mun", "_blank").focus();
+}

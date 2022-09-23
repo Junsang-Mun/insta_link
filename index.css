@@ -103,3 +103,25 @@ body {
     background-color: #171516;
     color: whitesmoke;
 }
+
+.link_insta {
+    background:
+        linear-gradient(330deg, #515BD4),
+        linear-gradient(30deg, #8134AF),
+        linear-gradient(120deg, #DD2A7B),
+        linear-gradient(200deg, #FEDA77),
+        linear-gradient(270deg, #F58529);
+    color: rgba(0, 0, 0, 0);
+    background-size: 6rem 6rem;
+}
+
+.link_insta:hover {
+    font-size: 2.6rem;
+    background:
+        linear-gradient(330deg, #515BD4),
+        linear-gradient(30deg, #8134AF),
+        linear-gradient(120deg, #DD2A7B),
+        linear-gradient(200deg, #FEDA77),
+        linear-gradient(270deg, #F58529);
+    color: whitesmoke;
+}
